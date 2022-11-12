@@ -1,4 +1,5 @@
 // First include hammer.js to your page, https://github.com/hammerjs/hammer.js
+// Add to your css: .animate{transition: all .3s;}
 const draggable = document.getElementById("draggable");
     let draggableRect=draggable.getBoundingClientRect();
     const droppable=document.getElementById('droppable');
